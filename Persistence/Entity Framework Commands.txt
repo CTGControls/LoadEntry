@@ -1,0 +1,10 @@
+﻿//Only needed first time:
+Enable-Migrations
+Add-Migration InitialCreate –IgnoreChanges
+Update-Database
+
+
+//Used every time (MigrationName should change ever time!!):
+Add-Migration InitialCreate
+Update-Database 
+
